@@ -34,6 +34,9 @@ body{
 .menu-sel div{
 	padding-left: 10px;
 	padding-right: 10px; 
+}
+
+.dush div{
 	border-left: 2px solid #cccccc;
 }
 
@@ -64,8 +67,14 @@ ul {
 	padding-right: 15%;
 }
 
-.block{
-	display: inline-block;
+.blocks{
+	float: left;
+}
+
+.spacing{
+	padding: 15px;
+	margin: 10px;
+	background-color: grey;
 }
 
 #about{
@@ -96,4 +105,27 @@ ul {
 	color: #4fa59f;
 	border-bottom: 2px solid #e8e8e8;
 	padding-bottom: 20px;
+}
+
+#content{
+	margin: 15px;
+}
+
+#avatar{
+	float: left;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	width: 200px;
+	height: 200px;
+} 
+
+#addition{
+	padding-top: 20px;
+}
+
+#content p{
+	line-height: 40px;
+	margin-top: 0px;
 }
