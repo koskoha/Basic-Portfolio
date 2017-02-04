@@ -1,0 +1,99 @@
+body{
+	background-image: url("../images/background.png");
+}
+
+#nav-bar{
+	background-color: white;
+	padding-left:15%; 
+	padding-right: 15%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+#nav-bar{
+	border-bottom: 3px solid #cccccc;
+}
+
+.menu{
+	width: 970px;
+}
+
+.menu li a.menu-sel{
+	display: block;
+	float: right;
+	text-align: center;
+    color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-sel div{
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-left: 2px solid #cccccc;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* li a.active{
+	color: white;
+	background-color: #4CAF50;
+} */
+
+#name{
+	float: left;
+	color: white;
+	background-color: #4fa59f;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px;
+}
+
+#article{
+	padding-top: 40px;
+	padding-left:15%; 
+	padding-right: 15%;
+}
+
+.block{
+	display: inline-block;
+}
+
+#about{
+	width: 610px;
+	background-color: white;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#about header{
+	font-weight: bold;
+	font-size: 30px;
+	color: #4fa59f;
+	border-bottom: 3px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+#connect{
+	margin-left: 20px;
+	width: 230px;
+	background-color: white;
+	padding: 20px;
+}
+
+#connect header{
+	font-weight: bold;
+	font-size: 20px;
+	color: #4fa59f;
+	border-bottom: 2px solid #e8e8e8;
+	padding-bottom: 20px;
+}
