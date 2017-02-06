@@ -1,30 +1,34 @@
 body{
 	background-image: url("../images/background.png");
+	color: #999;
+}
+
+body div{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	
 }
 
 #nav-bar{
 	background-color: white;
 	padding-left:15%; 
 	padding-right: 15%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
 #nav-bar{
-	border-bottom: 3px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 }
 
 .menu{
 	width: 970px;
 }
 
-.menu li a.menu-sel{
+.menu-sel{
+	color: #999;
 	display: block;
 	float: right;
 	text-align: center;
-    color: grey;
-    text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -58,23 +62,54 @@ ul {
 	background-color: #4fa59f;
 	font-weight: bold;
 	font-size: 30px;
-	padding: 15px;
+	padding: 30px;
 }
 
 #article{
 	padding-top: 40px;
-	padding-left:15%; 
+	padding-left:15%;
 	padding-right: 15%;
+	font-size: 20px;
+	margin-bottom: 50px;
+	overflow: hidden;
 }
 
 .blocks{
+	display: block;
 	float: left;
+	border: 1px solid #dddddd;
 }
 
 .spacing{
-	padding: 15px;
-	margin: 10px;
-	background-color: grey;
+	width: 70px;
+	height: 70px;
+	margin: 3px;
+	border: transparent;
+	background:
+}
+
+#git-icon{
+	background: url(../images/git.png);
+	background-size: 100%;
+}
+
+#stack-icon{
+	background: url(../images/stack.png);
+	background-size: 100%;
+}
+
+#linked-icon{
+	background: url(../images/linkedin.png);
+	background-size: 100%;
+}
+
+#copyright-icon{
+	background: url(../images/copyright.png);
+	background-size: 100%;
+}
+
+#sosial{
+	margin-top: 20px;
 }
 
 #about{
@@ -128,4 +163,55 @@ ul {
 #content p{
 	line-height: 40px;
 	margin-top: 0px;
+}
+
+#footer{
+	color: white;
+	width: 100%;
+	border-top: 7px solid #4aaaa5;
+	text-align: center;
+	background-color: #666666;
+	padding: 30px;
+	clear: both;
+}
+
+/*            Contact Page                            */
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4fa59f;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text]:focus {
+    border: 1px solid #ccc;
+}
+
+textarea{
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    font-size: 16px;
+    resize: none;
 }
