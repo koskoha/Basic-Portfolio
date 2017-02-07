@@ -80,32 +80,16 @@ ul {
 	border: 1px solid #dddddd;
 }
 
-.spacing{
+.sosial-link-block{
 	width: 70px;
 	height: 70px;
 	margin: 3px;
 	border: transparent;
-	background:
 }
 
-#git-icon{
-	background: url(../images/git.png);
-	background-size: 100%;
-}
-
-#stack-icon{
-	background: url(../images/stack.png);
-	background-size: 100%;
-}
-
-#linked-icon{
-	background: url(../images/linkedin.png);
-	background-size: 100%;
-}
-
-#copyright-icon{
-	background: url(../images/copyright.png);
-	background-size: 100%;
+#sosial img{
+	width: 70px;
+	height: 70px;
 }
 
 #sosial{
