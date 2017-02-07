@@ -143,7 +143,7 @@ ul {
 }
 
 #content{
-	margin: 15px;
+	margin: 25px 0px 15px 0px;
 }
 
 #avatar{
@@ -176,6 +176,10 @@ ul {
 }
 
 /*            Contact Page                            */
+
+form label {
+	font-weight: bold;
+}
 
 input[type=text], select {
     width: 100%;
@@ -214,4 +218,46 @@ textarea{
     margin: 8px 0;
     font-size: 16px;
     resize: none;
+}
+
+/*         portfolio                   */
+
+.image-left{
+	position: relative;
+	float: left;
+	margin-bottom: 40px;
+	width: 280px;
+	height: 200px;
+}
+
+.right-spacing{
+	margin-right: 50px;
+}
+
+.portfolio-tag{
+	color: white;
+	position: absolute;
+	top:150px;
+	width: 280px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: #4fa59f;
+}
+
+#portfolio-car1{
+	background: url(../images/car1.jpg);
+	background-size: 100%;
+}#portfolio-car2{
+	background: url(../images/car2.jpg);
+	background-size: 100%;
+}#portfolio-car3{
+	background: url(../images/car3.jpg);
+	background-size: 100%;
+}#portfolio-car4{
+	background: url(../images/car4.jpg);
+	background-size: 100%;
+}#portfolio-car5{
+	background: url(../images/car5.jpg);
+	background-size: 100%;
 }
